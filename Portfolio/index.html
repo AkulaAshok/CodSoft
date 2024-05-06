@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="header" id="home">
+        <nav>
+            <div class="logo">
+                <img src="./assets/logo.png" alt="logo">
+            </div>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="about" id="about">
+        <div class="profile">
+            <img src="./assets/pro.png" alt="profile">
+        </div>
+        <div class="self">
+            <h1>I'm <span>Ashok</span></h1>
+            <h2>Web Developer</h2>
+            <p>I am a web developer with a little experience as intern</p>
+            <p>and can design beautiful, attractive and user-friendly websites.</p>
+            <button class="btn">Hire Me</button>
+        </div>
+    </div>
+    <div class="skills" id="skills">
+        <h2>My Skills</h2>
+        <div class="my-skills">
+            <div class="Technical">
+            <h3>Technical Skills</h3>
+            <div class="skill">
+                C
+                <div class="skill-bar">
+                    <div class="skill-per C" per="80%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                Java
+                <div class="skill-bar">
+                    <div class="skill-per java" per="70%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                HTML
+                <div class="skill-bar">
+                    <div class="skill-per html" per="90%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                CSS
+                <div class="skill-bar">
+                    <div class="skill-per css" per="75%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                JavaScript
+                <div class="skill-bar">
+                    <div class="skill-per javascript" per="50%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                React
+                <div class="skill-bar">
+                    <div class="skill-per react" per="50%"></div>
+                </div>
+            </div>
+            </div>
+            <div class="Professional">
+            <h3>Professional Skills</h3>
+            <div class="skill">
+                Communication
+                <div class="skill-bar">
+                    <div class="skill-per com" per="80%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                Leadership
+                <div class="skill-bar">
+                    <div class="skill-per led" per="70%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                Teamwork
+                <div class="skill-bar">
+                    <div class="skill-per tm" per="90%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                Problem Solving
+                <div class="skill-bar">
+                    <div class="skill-per ps" per="75%"></div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="projects" id="projects">
+        <h2>My Projects</h2>
+        <div class="my-projects">
+            <div class="project">
+                <div class="title">Classification of Indian Classical Forms Using Machine Learning</div>
+                <div class="image">
+                    <img src="./assets/machine-learning.png" alt="project1">
+                </div>
+                <div class="des">Using Only Machine Learning, we proposed a model to identify the indian dance form through image processing.
+                    The model gives an accuracy of 80%.
+                </div>
+            </div>
+            <div class="project">
+                <div class="title">Calculator</div>
+                <div class="image">
+                    <img src="./assets/Calculator.png" alt="project1">
+                </div>
+                <div class="des">Using HTML, CSS and JavaScript I designed a calculator. To demonstrate my skills through basic projects</div>
+            </div>
+            <div class="project">
+                <div class="title">Landing page</div>
+                <div class="image">
+                    <img src="./assets/LandingPage.png" alt="project1">
+                </div>
+                <div class="des">Using HTML and CSS, I designed a landing page to demonstrate my skills in designing user-friendly, attractive, nice webpages</div>
+            </div>
+        </div>
+    </div>
+    <div class="resume">
+        <h2>Download My Resume</h2>
+        <center><button onclick="document.getElementById('resume').click()">Download Resume</button></center>
+        <a id="resume" href="./assets/Resume.pdf" download hidden></a>
+    </div>
+    <div class="bottom">
+        <div class="contact" id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <a href="mailto:ajashok145@gmail.com">ajashok145@gmail.com</a>
+                <address>65-1-424/A, Ajantha colony, Near cormandel gate, Sriharipuram, Visakhapatnam-11</address>
+                <p>8074348729</p>
+            </div>
+        </div>
+        <footer>
+            <div class="icons">
+                <a href="https://www.facebook.com/ashok.webtech"><i class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com/AkulaAshok89691"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.linkedin.com/in/ashok-akula-398a78241"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+            <p>Copyright &copy; 2024 | All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

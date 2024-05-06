@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: url('./assets/background.jpg') no-repeat fixed;
+    background-size: cover;
+}
+.logo img{
+    width: 200px;
+    height: 80px;
+    margin: 10px;
+    margin-left: 60px;
+}
+.header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    height: 90px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+}
+nav ul li{
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+    font-size: large;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: blueviolet;
+}
+.about{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    font-size: larger;
+}
+.self{
+    color: white;
+    text-align: right;
+    margin-top: 150px;
+}
+.about img{
+    box-shadow: 0px 3px 40px gray;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 5px solid gray;
+}
+.self button {
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 40px;
+    width: 25%;
+    font-size: large;
+    cursor: pointer;
+    margin: 15px 0px;
+    border: none;
+}
+.self button:hover{
+    box-shadow: 0px 3px 10px orangered;
+}
+.self h1, .self h2{
+    margin: 10px 0px;;
+}
+.self span{
+    color: red;
+}
+.skills{
+    color: white;
+}
+.skills h2, .projects h2, .resume h2, .contact h2{
+    color: whitesmoke;
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+.my-skills{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+}
+.Technical, .Professional{
+    margin: 10px 70px;
+    width: 100%;
+}
+.skill{
+    margin: 10px 0px;
+}
+.skill-bar, .skill-per{
+    height: 14px;
+    background-color: aliceblue;
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+.C{
+    max-width: 80%;
+    background: orangered;
+}
+.java, .led{
+    max-width: 70%;
+    background-color: orangered;
+}
+.html, .tm{
+    max-width: 90%;
+    background-color: orangered;
+}
+.css, .ps{
+    max-width:75%;
+    background-color: orangered;
+}
+.javascript, .react{
+    max-width: 50%;
+    background-color: orangered;
+}
+.com{
+    max-width: 80%;
+    background-color: orangered;
+}
+h3{
+    margin: 10px 0px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.my-projects{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.project{
+    color: white;
+    background-color: black;
+    margin: 10px;
+    width: 300px;
+    height: 350px;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 3px 12px rgba(255, 255, 255,0.5);
+}
+.title, .des{
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+.title{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.image img{
+    width: 250px;
+    height: 150px;
+    margin: 5px 20px;
+}
+.resume{
+    margin: 20px 0px;  
+}
+.resume button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.resume button:hover{
+    box-shadow: 0px 3px 15px orangered;
+}
+.bottom{
+    color: white;
+    text-align: center;
+    margin: 10px 0px;
+}
+.contact-info{
+    margin: 10px 0px;
+    padding: 10px;
+}
+.contact-info a{
+    text-decoration: none;
+    color: white;
+    margin: 5px 0px;
+}
+.icons{
+    margin: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.bx{
+    border-radius: 50%;
+    background-color: black;
+    padding: 10px;
+    border: 2px solid red;
+}
+.bx:hover{
+    box-shadow: 0px 3px 15px white;
+}
+.icons a{
+    color: white;
+}
